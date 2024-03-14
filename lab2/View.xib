@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Baseline standard spacing" minToolsVersion="9.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="hEp-wt-xBG">
+                    <rect key="frame" x="412" y="88" width="200" height="200"/>
+                    <rect key="contentStretch" x="0.40000000000000002" y="0.40000000000000002" width="1" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="TfG-RE-BbD"/>
+                        <constraint firstAttribute="width" constant="200" id="hJR-vr-C5E"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shtokalo Maksym" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mU-FC-go6">
+                    <rect key="frame" x="20" y="343" width="984" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Cdb-Hg-eiU">
+                    <rect key="frame" x="20" y="380" width="984" height="368"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <string key="text"> qwqw eqw eqw eqw eqwe qweqwe qwe qwe qwe qwe qweqweq weqweqweqwe qweqweqweqw eqweqwe qwe qwewqwewqwewqwewqwewqwe qwe qweqwe qweqw eqwe qweq weqwe qweqwe qweq we</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hEp-wt-xBG" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1zm-S7-JyZ"/>
+                <constraint firstItem="8mU-FC-go6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="4Mq-L0-zwb"/>
+                <constraint firstItem="8mU-FC-go6" firstAttribute="top" secondItem="hEp-wt-xBG" secondAttribute="bottom" constant="55" id="F5I-bb-rVR"/>
+                <constraint firstItem="Cdb-Hg-eiU" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="IX7-cg-aq5"/>
+                <constraint firstItem="hEp-wt-xBG" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" multiplier="4" constant="8" id="dhi-zy-Alo"/>
+                <constraint firstItem="Cdb-Hg-eiU" firstAttribute="leading" secondItem="8mU-FC-go6" secondAttribute="leading" id="gfJ-2z-zMh"/>
+                <constraint firstItem="Cdb-Hg-eiU" firstAttribute="firstBaseline" secondItem="8mU-FC-go6" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="hMy-zF-fZU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Cdb-Hg-eiU" secondAttribute="bottom" constant="20" id="lxB-LU-RbF"/>
+                <constraint firstItem="hEp-wt-xBG" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="szG-hB-tcM"/>
+                <constraint firstItem="8mU-FC-go6" firstAttribute="centerX" secondItem="hEp-wt-xBG" secondAttribute="centerX" id="xKw-pq-jXh"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="297.5" y="64.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="images" width="183" height="275"/>
+    </resources>
+</document>
